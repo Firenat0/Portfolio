@@ -12,7 +12,9 @@
 
 
 body
-{
+{   
+    height: 100%;
+    width: 100%;
     background: url('images/Fond2.png');
     background-size: cover;
     font-family: 'Trebuchet MS', Arial, sans-serif;
