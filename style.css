@@ -74,7 +74,7 @@ header h1
 
 header h2
 {
-    font-family: BallparkWeiner, serif;
+    font-family: 'BallparkWeiner', serif;
     font-size: 1,8em;
     margin-top: 10px;
     font-weight: normal;
@@ -82,14 +82,39 @@ header h2
 
 h3
 {
-    font-family: BallparkWeiner, serif;
+    font-family: serif;
     color:white;
     font-weight: bold;
     width: 300px;
     margin:auto;
-
 }
 
+h4
+{
+    font-family:serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    font-weight: normal;
+    color: black;
+    margin: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
 
 #banniere_image
 {
@@ -142,6 +167,12 @@ section a
 
 }
 
+article a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
 .bouton_noir1
 {
     height: 50px;
@@ -152,6 +183,9 @@ section a
     padding: 3px 8px 0px 8px;
     color: black;
     text-decoration: none;
+    margin: auto;
+    margin-top: 15px
+
 }
 
 .bouton_noir2
@@ -159,17 +193,13 @@ section a
     height: 50px;
     background: url('images/fond_noir.png') repeat-x;
     border-radius: 20px;
-    font-size: 2.2em;
+    font-size: 1.9em;
     text-align: center;
     padding: 3px 8px 0px 8px;
     color: black;
     text-decoration: none;
-}
-
-h3 a:hover
-{
-    color: #760001;
-    border: 3px solid white;
+    margin: auto;
+    margin-top: 15px
 }
 
 footer
